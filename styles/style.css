@@ -243,7 +243,7 @@
 
 /* support start */
 .support-container{
-    background-image: url(../assets/handshake.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,18 +256,17 @@ form{
     margin: 0 auto;
     margin-top: 18px;
     display: flex;
-    flex-direction: row;
     gap: 12px;
+    justify-content: center;
 }
 form input{
-    max-width: 432px;
     padding: 15px;
     border: none;
     outline: none;
     border-radius: 6px;
     font-size: 0.8rem;
     color: rgba(13, 19, 33, 0.4);
-    flex-grow: 100;
+    flex-grow: 1;
 }
 form button{
     padding: 14px;
@@ -275,7 +274,6 @@ form button{
     border-radius: 6px;
     font-size: 1rem;
     font-weight: 600;
-    flex-grow: 1;
 }
 .support-container{
     margin-bottom: 63px;
