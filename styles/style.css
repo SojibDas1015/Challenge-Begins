@@ -49,7 +49,7 @@
 
 /* hero start */
 .hero {
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
