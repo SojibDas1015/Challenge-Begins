@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* shared */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.websizing {
+    width: 79%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-btn {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    padding: 13px 18px;
+
+}
+
+/* shared */
+
+/* nav start */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0D1321;
+    margin: 39px 0;
+}
+
+.nav-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+/* nav end */
+
+/* hero start */
+.hero {
+    background-image: url("/assets/Hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 26px;
+}
+
+.hero-container {
+    max-width: 788px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-container * {
+    margin-top: 25px;
+}
+
+.hero-title {
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.hero-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.hero-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* hero end */
+
+/* development start */
+.development {
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.development-container {
+    margin: 58px 0;
+    padding: 63px 76px;
+}
+
+.development-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.development-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.card-btn {
+    border-radius: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.development-card {
+    display: flex;
+    gap: 77px;
+    align-items: center;
+    background-color: white;
+    border-radius: 9px;
+    padding: 37px;
+    margin: 25px 0;
+}
+.order-one{
+    order: 2;
+}
+.order-two{
+    order: 1;
+}
+/* development end */
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .development-card {
+        flex-direction: column;
+    }
+
+    .development-container {
+        margin: 58px 0;
+        padding: 10px 20px;
+    }
+    .development{
+        width: 100%;
+    }
+}
+
+/* media query */
